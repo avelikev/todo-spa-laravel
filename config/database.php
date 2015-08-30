@@ -54,10 +54,10 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', 'localhost'),
-            'database'  => env('DB_DATABASE', 'forge'),
-            'username'  => env('DB_USERNAME', 'forge'),
-            'password'  => env('DB_PASSWORD', ''),
+            'host'      => env('DB_HOST', 'todo-spa.coqssgqzqqqe.us-east-1.rds.amazonaws.com'),
+            'database'  => env('DB_DATABASE', 'todo_spa_laravel'),
+            'username'  => env('DB_USERNAME', 'avelikev'),
+            'password'  => env('DB_PASSWORD', 'thispasswordisnotsecure'),
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
